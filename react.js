@@ -19,3 +19,14 @@ function createTextElement(text) {
     },
   };
 }
+
+function render(element, container) {
+  //TODO creating dom nodes
+}
+
+const NanoReact = {
+  createElement,
+  render,
+};
+
+NanoReact.render(element, container);
